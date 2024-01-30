@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    color:aliceblue
+}
+
+logo {
+    font-size: large;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight:20px;
+margin-right: 10%;
+padding: 10px;
+color: red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    padding: auto;
+    margin-top:-30px;
+
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1 rem;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+
+#email, #password {
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    border-color: white;
+    display: flex
+}
+
+#email ::placeholder {
+    font-size: 0.5rem;
+    background-color: black;
+ }
+
+ button {
+    margin: 10px;
+    padding: 5px;
+    background-color: red;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1rem;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: transparent;
+ }
+
+ .col {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 1 rem;
+ }
+
+ select {
+    background-color: black;
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2px;;
+    margin: 10px;
+    padding: auto;
+ }
+
+ a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: auto;
+ }
+
+ @media  (max-width:786px)  {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: -30px;
+        margin-left: 50px;
+        padding: auto;
+    
+    }
+ }
